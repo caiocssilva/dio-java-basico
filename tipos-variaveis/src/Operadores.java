@@ -28,6 +28,7 @@ public class Operadores {
         System.out.println(concatenacao);
         */
 
+        /* 
         int numero = 5;
 
         numero = - numero;
@@ -37,5 +38,21 @@ public class Operadores {
         numero = + numero * -1; 
 
         System.out.println(numero);
+        */
+
+        /* 
+        int numero = 5;
+        
+        //x repetição
+        //numero++;
+
+        System.out.println( ++ numero);
+
+        System.out.println(numero);
+        */
+
+        boolean variavel = true;
+
+        System.out.println(!variavel);
     }
 }
