@@ -61,6 +61,7 @@ public class Operadores {
         //<Expressão Condicional>`` ?``<Caso condição seja true>``:``<Caso condição seja false>
         // classe Operadores.java
         
+        /* 
         int a, b;
 
         a = 5;
@@ -69,6 +70,12 @@ public class Operadores {
         String resultado = a==b ?"verdadeiro"  : "falso";
         
         System.out.println(resultado);
+        */
+
+        String nomeUm = "CAIO";
+        String nomeDois = new String ("CAIO");
+
+        System.out.println(nomeUm.equals(nomeDois));
 
     }
 }
