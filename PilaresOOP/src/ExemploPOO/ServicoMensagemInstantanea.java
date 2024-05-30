@@ -1,7 +1,15 @@
 package ExemploPOO;
 
 //a classe MSNMessenger é ou representa
-public class ServicoMensagemInstantanea {
+public abstract class ServicoMensagemInstantanea {
+    //Abstração
+    public abstract void enviarMensagem();
+    public abstract void receberMensagem();
+
+
+
+    /* Herança
+
 	public void enviarMensagem() {
 		//primeiro confirmar se esta conectado a internet
 		validarConectadoInternet();
@@ -20,4 +28,5 @@ public class ServicoMensagemInstantanea {
 	private void salvarHistoricoMensagem() {
 		System.out.println("Salvando o histórico da mensagem");
 	}
+    */
 }
