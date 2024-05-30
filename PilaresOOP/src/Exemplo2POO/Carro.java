@@ -1,4 +1,6 @@
+package Exemplo2POO;
 //Veiculo Herança
+
 public class Carro extends Veiculo {   
     //Encapsulamento
     public void ligar() {

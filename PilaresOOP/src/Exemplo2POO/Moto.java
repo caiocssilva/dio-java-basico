@@ -1,4 +1,6 @@
+package Exemplo2POO;
 //Veiculo herança
+
 public class Moto extends Veiculo {
     //Abstração
     @Override

@@ -1,3 +1,4 @@
+package Exemplo2POO;
 //Veiculo é uma Herança
 public abstract class Veiculo {
     private String chassi;
