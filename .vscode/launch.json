@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "list.operacoesBasicas.Pesquisa.CatalogoLivros",
+            "projectName": "dio-java-basico_939b2ecb"
+        },
+        {
+            "type": "java",
+            "name": "CatalagoLivros",
+            "request": "launch",
+            "mainClass": "list.operacoesBasicas.Pesquisa.CatalagoLivros",
+            "projectName": "dio-java-basico_939b2ecb"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
